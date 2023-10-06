@@ -1,0 +1,236 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header-logo{
+  width: 400px;
+  margin-left: 50px;
+  font-size: 24px;
+  font-family: Arial;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+header ul{
+  width: 600px;
+  font-size: 18px;
+  font-family: Arial;
+  color: #F9FAF8;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#page1{
+  height: 500px;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+}
+
+#text-btn{
+  margin-left: 170px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#text-btn h1{
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 900;
+  color: #F9FAF8;
+  line-height: 50px;
+}
+
+#text-btn p{
+  margin-left: 8px;
+  font-family: Arial;
+  font-size: 18px;
+  color: #F9FAF8;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+#text-btn button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-family: Arial;
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+#text-btn button:hover{
+  background-color: white;
+  border: none;
+  color: #3882F6;
+}
+
+
+#img-div img{
+  margin-left: 160px;
+  height: 250px;
+  width: 500px;
+}
+
+#page2{
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#page2 h2{
+  font-size: 35px;
+  font-family: Arial;
+  color: #3f4856;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+#flash-cards{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 50px;
+  
+}
+
+#flash-cards1{
+  width: 200px;
+  vertical-align: top;
+  margin-right: 15px;
+  
+}
+
+#flash-card1 img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #4f5d70;
+  border-radius: 10px;
+}
+
+#flash-card1 p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #535d6b;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  margin-left: 77px;
+}
+
+#page3{
+  height: 400px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page3{
+  color: #535d6b;
+}
+
+#page3 p{
+  margin-top: 110px;
+  margin-bottom: 20px;
+  width: 1000px;
+  font-size: 36px;
+  font-style:  italic;
+  color: #1F2937;
+  text-align: left;
+}
+
+#page3 h4{
+  width: 1000px;
+  padding-left: 600px;
+  font-size: 25px;
+  font-style:oblique;
+}
+
+#page4{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#page4-box{
+  height: 40%;
+  width: 80%;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#page4-text h4{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#page4-text p{
+  font-size: 20px;
+}
+
+#page4 button{
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 8px;
+  height: 45px;
+  width: 140px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+#page4 button:hover{
+  background-color: white;
+  border: none;
+  color: #3882F6;
+}
+
+footer{
+  height: 70px;
+  width: 100%;
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
